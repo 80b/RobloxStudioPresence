@@ -1,3 +1,5 @@
+Discord Server: https://discord.gg/KphN9gH
+
 # Setup
 
 1. Clone this repo into any location.
