@@ -36,7 +36,7 @@ def main():
     try:
         userId = getUserId(username)
         print("Your userid is {}".format(userId))
-        print("To connect this to Roblox Studio, use the plugin and enter your username when prompted.")
+        print("To connect this to Roblox Studio, follow the README.md instructions.")
         print("Waiting for pypresence..")
         rpc = Presence(client_id,pipe=0)
         rpc.connect()
