@@ -1,14 +1,14 @@
 <roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Folder" referent="RBXB8A66C0E6FB0430C9580CBFCB1DBE27C">
+	<Item class="Folder" referent="RBX9EE5C463CA364930844201B7797C3E7C">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">RobloxStudioPresence</string>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Script" referent="RBX524A02F933654613A9B8FFB9F3D60470">
+		<Item class="Script" referent="RBX48814DB0452048318BBF279CB56A1BAE">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<bool name="Disabled">false</bool>
@@ -42,7 +42,6 @@ end
 
 local userid = nil
 local key = nil
-
 local button = plugin:CreateToolbar("Roblox Studio Presence"):CreateButton("Start","Start","http://www.roblox.com/asset/?id=2780048880")
 
 userid = nil
@@ -157,7 +156,7 @@ for i = 1, #scripts do
 		oldLen[scr] = #scr.Source
 	end
 end
-
+-----
 local function CountLines(str)
 	local loc = 1
 	loc = (select(2, str:gsub("\n", "")) + 1)
@@ -195,7 +194,7 @@ end
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="ScreenGui" referent="RBX95551635A6ED44279957716E0585880E">
+			<Item class="ScreenGui" referent="RBX6E20B3E4750B437189BA7A6B4729E2F5">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<bool name="AutoLocalize">true</bool>
@@ -209,7 +208,7 @@ end
 					<BinaryString name="Tags"></BinaryString>
 					<token name="ZIndexBehavior">1</token>
 				</Properties>
-				<Item class="Frame" referent="RBX837B509BDF8C4E899893D2F2DEA92757">
+				<Item class="Frame" referent="RBX6F14E9840EB64C11AC80D17C1168DDE7">
 					<Properties>
 						<bool name="Active">false</bool>
 						<Vector2 name="AnchorPoint">
@@ -263,7 +262,7 @@ end
 						<bool name="Visible">true</bool>
 						<int name="ZIndex">1</int>
 					</Properties>
-					<Item class="UICorner" referent="RBXCBDDFF1B077F475A896302B42F721AFE">
+					<Item class="UICorner" referent="RBX4930C50FE5BC40F8BBD6FBD0B3B5577E">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<UDim name="CornerRadius">
@@ -275,7 +274,7 @@ end
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="UIGradient" referent="RBX6385599465794090BCDC7268DECE134F">
+					<Item class="UIGradient" referent="RBX24D9F55E523A4AB7B54E8E68E7DE72DF">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<ColorSequence name="Color">0 1 1 1 0 1 0.333333 0.333333 0.498039 0 </ColorSequence>
@@ -291,7 +290,7 @@ end
 							<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
 						</Properties>
 					</Item>
-					<Item class="TextLabel" referent="RBXA3F613697FE04577B754AC5E9354616D">
+					<Item class="TextLabel" referent="RBX68538C3E00224E3B8638FA404D944C48">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -367,7 +366,7 @@ end
 							<int name="ZIndex">1</int>
 						</Properties>
 					</Item>
-					<Item class="TextBox" referent="RBX7AE185F49753478EB3A819A00BBE55FE">
+					<Item class="TextBox" referent="RBX9C4BA0FF2ED646E393A21F6EF01902F5">
 						<Properties>
 							<bool name="Active">true</bool>
 							<Vector2 name="AnchorPoint">
@@ -407,7 +406,7 @@ end
 								<G>1</G>
 								<B>1</B>
 							</Color3>
-							<string name="PlaceholderText">Enter your username to connect to the python program</string>
+							<string name="PlaceholderText">Enter your username to connect to the python listener</string>
 							<UDim2 name="Position">
 								<XS>0</XS>
 								<XO>0</XO>
@@ -453,7 +452,7 @@ end
 							<int name="ZIndex">1</int>
 						</Properties>
 					</Item>
-					<Item class="TextLabel" referent="RBXC13BF61C08874340B103F257D21388E6">
+					<Item class="TextLabel" referent="RBX3DF6D6FDB3474760BDA37AE8B1758A20">
 						<Properties>
 							<bool name="Active">false</bool>
 							<Vector2 name="AnchorPoint">
@@ -529,7 +528,7 @@ end
 							<int name="ZIndex">1</int>
 						</Properties>
 					</Item>
-					<Item class="TextButton" referent="RBXA15A461334534170980EBA74634CF354">
+					<Item class="TextButton" referent="RBX01EB7C43E9034DB59E9B78887D04B726">
 						<Properties>
 							<bool name="Active">true</bool>
 							<Vector2 name="AnchorPoint">
@@ -608,7 +607,7 @@ end
 							<bool name="Visible">true</bool>
 							<int name="ZIndex">1</int>
 						</Properties>
-						<Item class="UICorner" referent="RBX782CEE43DAC946EAB248DDBC5201E220">
+						<Item class="UICorner" referent="RBXD8C43455B3AA49FC92082E2262A3AD08">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<UDim name="CornerRadius">
@@ -621,7 +620,7 @@ end
 							</Properties>
 						</Item>
 					</Item>
-					<Item class="TextBox" referent="RBX1A95516B632547F49B6CAE4B55CA288C">
+					<Item class="TextBox" referent="RBX3DB4BBEE9260462FAEDBEA7F9C4C31AF">
 						<Properties>
 							<bool name="Active">true</bool>
 							<Vector2 name="AnchorPoint">
@@ -661,7 +660,7 @@ end
 								<G>1</G>
 								<B>1</B>
 							</Color3>
-							<string name="PlaceholderText">Enter the key you got from the bot in the discord server</string>
+							<string name="PlaceholderText">Enter the key you got from the bot after you verified your roblox account in the discord server</string>
 							<UDim2 name="Position">
 								<XS>0</XS>
 								<XO>0</XO>
