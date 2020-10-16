@@ -17,4 +17,4 @@ Discord Server: https://discord.gg/KphN9gH
 
 # Todo
 
-- [-] Discord Verification (so no ultra mega hackermans hijack someone's rpc!!!!!!1111)
+- [x] Discord Verification (so no ultra mega hackermans hijack someone's rpc!!!!!!1111)
