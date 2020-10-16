@@ -10,7 +10,10 @@ Discord Server: https://discord.gg/KphN9gH
 7. Go to your plugins menu and press the Roblox Studio Presence's 'Start' button.
 8. Enter your roblox username you wish to connect to discord and the unique key you received from the bot.
 9. Press the start button on the gui.
-10. Done! ![Here's a preview of what it will look like](http://galaxybotl.altervista.org/ddddddd.PNG) 
+10. Done! 
+
+Here's what the rich presence looks like:
+![preview](http://galaxybotl.altervista.org/ddddddd.PNG) 
 
 # Todo
 
