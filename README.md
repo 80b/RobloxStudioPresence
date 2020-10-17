@@ -6,7 +6,7 @@ Discord Server: https://discord.gg/KphN9gH
 2. Open 'setup.bat' to install any missing packages.
 3. Open 'main.py' after the setup was completed and enter your roblox username.
 4. Put 'RobloxStudioPresence.rbxmx' in your roblox studio local plugins folder.
-5. Enable HTTP requests so the plugin can reach the backend.
+5. Enable HTTP requests on your roblox game so the plugin can reach the backend.
 6. Join the discord server and type "!verify Username" (without the quotations) and Username being your roblox username.
 7. Go to your plugins menu and press the Roblox Studio Presence's 'Start' button.
 8. Enter your roblox username that you wish to connect to discord and the unique key you received from the bot after verifying your roblox account.
